@@ -25,7 +25,7 @@ data = {
 df = pd.DataFrame(data)
 
 # Interface utilisateur
-st.title("🌍 Comparateur de fonds internationaux – Prototype Welflo")
+st.title("🌍 Comparateur de fonds internationaux – Prototype ")
 
 perf_min = st.slider("Performance minimum sur 5 ans (%)", 0, 100, 30)
 vol_max = st.slider("Volatilité maximale (%)", 0, 30, 15)
