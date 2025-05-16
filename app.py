@@ -5,7 +5,7 @@ import pandas as pd
 # Mot de passe d'accès
 # ---------------------
 password = st.text_input("Mot de passe :", type="password")
-if password != "welflo123":  # interne uniquement
+if password != "PAMPAM2025":  # interne uniquement
     st.warning("Mot de passe incorrect.")
     st.stop()
 
