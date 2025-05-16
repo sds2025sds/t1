@@ -3,7 +3,7 @@ import pandas as pd
 
 # Mot de passe d’accès
 password = st.text_input("Entrez le mot de passe pour accéder à l'application :", type="password")
-if password != "welflo123":
+if password != "pampam2025":
     st.warning("Mot de passe incorrect.")
     st.stop()
 
